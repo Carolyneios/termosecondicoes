@@ -1,0 +1,585 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background-size: cover;
+    line-height: 40px;
+}
+
+body {
+    font-size: 25px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    overflow-x: hidden;
+
+}
+
+
+footer .links,
+.copy {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-self: center;
+}
+
+footer a,
+footer ol {
+    color: white;
+    text-decoration: none;
+}
+
+#redes {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20%;
+}
+
+#redes:hover {
+
+    transition: 0.5s;
+}
+
+.copy {
+    background-image: linear-gradient(to left, #260016, #FF0077);
+    width: 100%;
+    border-top-left-radius: 50%;
+}
+
+footer .logo {
+    font-family: 'Simply Rounded', sans-serif;
+    color: white;
+    font-size: 4rem;
+    text-transform: capitalize;
+    transition: all 2s;
+}
+
+.copy p {
+    font-weight: 500;
+}
+
+#up {
+    color: #FF0077;
+}
+
+.pix {
+    width: 50px;
+    margin-left: 150px;
+}
+
+
+
+
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* card */
+
+.card {
+    width: 350px;
+    height: 500px;
+    border-radius: 40px;
+    box-shadow: 0 0 20px 2px #FF0077;
+}
+
+.card h1 {
+    padding: 12%;
+    font-weight: bolder;
+}
+
+/*FOOTER PÁGINA SOBRE*/
+
+img {
+    width: 100%;
+}
+
+.imgdiv {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: -60px;
+    margin-left: 120px;
+
+}
+
+
+.card a {
+    width: 200px;
+    height: 100px;
+    background: #ba01ff;
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    transition: all 0.7s;
+    font-weight: 900;
+    text-shadow: 2px 2px red;
+    text-transform: uppercase;
+    margin-left: 25%;
+    margin-right: 20%;
+
+}
+
+.card a:hover {
+    background-color: white;
+    color: #ce1446;
+    text-shadow: none;
+}
+
+
+
+.portfolio h1 {
+    color: white;
+    
+}
+
+.portfolio button {
+    margin-left: 35%;
+    background-color: white;
+    color: #310a26;
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: none;
+    transition: all 0.7s;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 4px 0 0 4px rgba(0, 0, 0, 0.791);
+}
+
+.portfolio button:hover {
+    background-color: #FF0077;
+    color: white;
+}
+
+footer {
+    background-color: #000000be;
+    width: 100%;
+    background-image: url(Fundo.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: saturation;
+
+}
+
+/* .sites {
+    background-color: #Ff0077;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    padding-left: 12%;
+    padding-right: 12%;
+    flex-direction: row-reverse;
+} */
+
+.sites h1 {
+    font-weight: 900;
+}
+
+.sites a {
+    color: white;
+    transition: all 1s;
+}
+
+*/
+
+/* footer padrao*/
+.sites li {
+    text-align: justify;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.menuzinho {
+    display: none;
+}
+
+
+/* fim*/
+.copy img {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    padding: 4px;
+}
+
+.copy {
+    background-image: linear-gradient(to left, #260016, #FF0077);
+}
+
+.sites {
+    background-color: black;
+}
+
+.portfolio {
+    padding: 10%;
+}
+
+
+
+.port1,
+.port2.active {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+.port2 {
+    display: none;
+}
+
+/*MENU LATERAL*/
+
+nav.menu-lateral {
+    width: 80px;
+    height: 100%;
+    background-color: black;
+    padding: 40px 0px 30px 1%;
+    box-shadow: 3px 0 0 #FF0077;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: scroll;
+    padding-left: 5px;
+    z-index: 1;
+
+}
+
+nav.menu-lateral.expandir {
+    width: 300px;
+}
+
+.btn-expandir {
+    width: 100%;
+}
+
+.btn-expandir>i {
+    color: #FF0077;
+    cursor: pointer;
+    font-size: 70px;
+
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu {
+    transition: 1s;
+}
+
+ul li.ativo {
+    background-color: #392b3888;
+
+}
+
+ul li.item-menu:hover {
+    background-color: white;
+}
+
+ul li.item-menu a:hover {
+    color: black;
+    transition: 1s;
+}
+
+ul li.item-menu a {
+    color: #Ff0077;
+    text-decoration: none;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .text-link {
+    margin-left: 40px;
+}
+
+/*ul li.item-menu a .icon>i {
+    font-size: 30px;
+}*/
+
+::-webkit-scrollbar {
+    background-color: black;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FF0077;
+    border-radius: 400px;
+}
+
+.icones {
+    width: 50px;
+}
+
+.action {
+    grid-area: action;
+}
+
+.action {
+    border: 1px solid;
+    outline: none;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    transition: all 2s;
+}
+
+.action:hover {
+    background-color: #fff;
+    color: #dd5e89;
+}
+
+/*fim*/
+/*icones do footer*/
+
+.fa-brands {
+    margin: 12px;
+    padding: 12px;
+    transition: all 1s;
+    color: white;
+}
+
+.fa-brands:hover,
+.sites a:hover {
+    color: #FF0077;
+}
+
+footer .copy {
+    padding: 4%;
+}
+
+/* FIM */
+/*CONTEUDO PRINCIPAL*/
+
+.artigo {
+    padding: 20%;
+}
+
+.devs{
+    border-radius: 40px 40px 0px 0px;
+}
+
+/*FIM*/
+/*RESPONSABILIDADE*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    * {
+        font-size: 0.9rem;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .sites h1,
+    .sites h2 {
+        font-size: 1.5em;
+        font-weight: bolder;
+    }
+
+    .menu-lateral {
+        display: none;
+    }
+
+    .go-top-btn {
+        width: 20px;
+        height: 20px;
+    }
+
+    .sites,
+    .port1,
+    .port2.active {
+        display: grid;
+    }
+
+    .sites {
+        padding: 20%;
+    }
+
+    .card {
+        width: 200px;
+        height: 400px;
+        margin: 40px;
+    }
+
+    .copy {
+        display: none;
+    }
+
+    .menuzinho {
+
+        padding: 0;
+        bottom: 0vh;
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        background-color: #000;
+
+    }
+
+    .emagem {
+        margin: 0;
+        width: 50px;
+
+    }
+
+
+
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    * {
+        font-size: 1rem;
+    }
+
+    .menuzinho {
+
+        padding: 0;
+        bottom: 0vh;
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        background-color: #000;
+
+    }
+
+    .emagem {
+        margin: 0;
+        width: 50px;
+
+    }
+
+    .menu-lateral {
+        display: none;
+    }
+
+    .sites,
+    .copy,
+    .port1,
+    .port2.active {
+        display: grid;
+
+    }
+
+    .card {
+        width: 350px;
+        margin: 40px;
+    }
+
+    .copy {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    * {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        margin-right: 4%;
+    }
+
+    .copy img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .sites,
+    .copy {
+        padding: 7%;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:2000px) {
+    * {
+        font-size: 1.4rem;
+    }
+
+    .card {
+        margin-right: 4%;
+
+    }
+
+    .sites,
+    .copy {
+        padding: 10%;
+    }
+
+
+}
+
+/*fim*/
+
+/*topo*/
+
+.go-top-btn {
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    border-radius: 100%;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    background: #000000;
+    border: 2px solid #FF0077;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.go-top-btn img {
+    width: 40px;
+    height: 40px;
+}
+
+/*pre carregamento */
+
+div.pre-carregamento {
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    transition: 1.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#carim {
+    width: 100px;
+}
